@@ -95,9 +95,9 @@ function App() {
           {tasks.length > 0 ? <Tasks tasks={tasks} onDelete = {deleteTask} onToggle = {toggleReminder}/>: 'There is no tasks'} 
           </>
         )}/>
-        <h1>Hello {name}</h1>
+        {/* <h1>Hello {name}</h1>
         <h2>How you doing?</h2>
-        <h3>{x ? 'Yes' : 'No'}</h3>
+        <h3>{x ? 'Yes' : 'No'}</h3> */}
         <Route path="/about" component={About}/>
         <Footer />
       </div>
